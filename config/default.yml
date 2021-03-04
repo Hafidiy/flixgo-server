@@ -1,0 +1,17 @@
+server:
+  PORT: 4000
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'flix-go'
+
+smtp:
+  gmail: 'flixgoproject@gmail.com'
+  password: 'jazakumullohuXoyron2740'
+
+allowedAdminEmails:
+  1: 'hafidiyalfayed@gmail.com'
+
+jwt:
+  expiresIn: 3600
